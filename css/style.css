@@ -4,4 +4,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial;
 }
+
+/* generici */
+
+body{
+    background-color: rgb(28, 54, 79);
+}
+
+/* titolo della pagina */
+
+.title-container{
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 32px;
+}
+
+/* contenitore dei quadrati */
+
+.squares-box{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
