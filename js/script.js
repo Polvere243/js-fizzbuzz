@@ -1,24 +1,25 @@
 // creare un elemento;
 
-// const square = document.createElement("div");
+
+const list = document.getElementById("squares-list");
 
 // stampare in pagina i numeri da 1 a 100;
 
-
+let items = "";
 for(let i = 1; i <= 100; i++){
 
     let content = i;
     if(i % 15 === 0){
-        console.log("FizzBuzz");
+        content = "FizzBuzz";
     } else if(i % 3 === 0){
-        console.log("Fizz");
+        content = "Fizz";
     } else if (i % 5 === 0) {
-        console.log("Buzz");
+        content = "Buzz"
     } else{
-        console.log(content);
-
+        content = `${i}`;
     }
-    
-    
-    
+
+   items += `<li>${content}</li>`;
 }
+
+list.innerHTML = items;
