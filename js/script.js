@@ -19,7 +19,7 @@ for(let i = 1; i <= 100; i++){
         content = `${i}`;
     }
 
-   items += `<li>${content}</li>`;
+   items += `<li class="${content}">${content}</li>`;
 }
 
 list.innerHTML = items;
