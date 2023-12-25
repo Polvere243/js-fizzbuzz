@@ -36,37 +36,37 @@ h1{
 /* oggetti */
 
 #squares-list{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -10px;
-    justify-content: space-between;
     list-style-type: none;
     color: white;
 }
 
-.box{
+ul li{
     padding: 0 10px;
-    width: 50px;
-    height: 50px;
+    width: 108px;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 102, 175);
+    border: 5px solid rgb(28, 54, 79);
 }
 
-/* sfondi dei quadrati */
-
-.default{
-    background-color: blue;
-}
-
-.fizz{
+li.fizz{
     background-color: greenyellow;
 }
 
-.buzz{
+li.buzz{
     background-color: yellow;
 }
 
-.fizzbuzz{
+li.fizzbuzz{
     background-color: magenta;
 }
+
+
 
 
 
